@@ -8,6 +8,7 @@ npm i typescript -D
 npm i tsx -D
 npm i @types/node -D
 npm i prisma -D
+npm i dotenv -D
 
 npm i eslint -D
 npm i @rocketseat/eslint-config -D
@@ -15,6 +16,8 @@ npm i @rocketseat/eslint-config -D
 # prod
 npm i fastify
 npm i @prisma/client
+npm i axios
+npm i @fastify/jwt
 
 npx tsc --init
 npx prisma init --datasource-provider SQLite
