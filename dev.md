@@ -18,6 +18,8 @@ npm i fastify
 npm i @prisma/client
 npm i axios
 npm i @fastify/jwt
+npm i @fastify/multipart
+npm i @fastify/static
 
 npx tsc --init
 npx prisma init --datasource-provider SQLite
